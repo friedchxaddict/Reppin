@@ -7,17 +7,24 @@
 	color: #4cdaed;
 }
 
+
+
 #intro {
 	background-color: #dededf;
 }
 
 #video {
-	width: 650px;
+	max-width: 100%;
+
 }
+
 
 p {
 	font-size: 16px;
 }
+
+
+
 
 h1 {
 	font-size: 58px;
@@ -32,12 +39,14 @@ ul {
 i {
 	color: #7c3594;
 }
+
 #button {
 	background-color: #4cdaed;
+	font-size: 13px;
 }
 
 #purple {
-	width: 700px;
+	width: 100%;
 }
 
 #middle {
@@ -64,13 +73,54 @@ h2 {
 }
 
 
+@media only screen and (max-width: 768px) {
+	p.tablet {
+		font-size: 12px;
+	}
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	li.tablet {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	h1.title {
+		font-size: 30px;
+	}
+}
 
 
+@media only screen and (max-width: 1024px) {
+	h2.title {
+		font-size: 30px;
+	}
 
+@media only screen and (max-width: 768px) {
+	li.tablet {
+		font-size: 8px;
+	}
+}
 
+@media only screen and (max-width: 768px) {
+	button.size {
+		font-size: 6px;
+	}
+}
 
+@media only screen and (max-width: 425px) {
+	div.phone {
+		text-align: center;
+		padding-left: 2rem;
+	}
+}
 
-
-
+@media only screen and (max-width: 425px) {
+	div.center {
+		justify-content: center;
+	}
+}
 
 
