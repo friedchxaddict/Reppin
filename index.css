@@ -118,6 +118,12 @@ h2 {
 }
 
 @media only screen and (max-width: 425px) {
+	p.phone {
+		text-align: center;
+		padding-left: 2rem;
+	}
+}
+@media only screen and (max-width: 425px) {
 	div.center {
 		justify-content: center;
 	}
